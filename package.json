@@ -1,0 +1,35 @@
+{
+  "name": "gp5",
+  "version": "0.1.0",
+  "description": "Generate Processing boilerplate for VSCode",
+  "main": "index.js",
+  "bin": {
+    "gp5": "index.js"
+  },
+  "scripts": {
+    "prettier": "prettier",
+    "lint": "eslint index.js",
+    "test": "npm run lint"
+  },
+  "keywords": [
+    "Processing",
+    "p5"
+  ],
+  "author": "Daigo Shitara",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "inquirer": "^5.0.1"
+  },
+  "engines": {
+    "node": ">=8.9.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
